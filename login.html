@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.html">
+    <title>Página de login</title>
+    <style>
+        body {
+        color: rgb(29, 13, 9);
+
+        }
+
+        .main-login{
+    width: 400w;
+    height: 100vh;
+    background-color: rgb(255, 232, 28);
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+}
+
+.left-login{
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.right-login {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-login {
+    width: 60%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding: 30px 35px;
+    background: rgb(133, 204, 93);
+    border-radius: 20px;
+    box-shadow: 0px -10px 40px rgb(240, 218, 24);
+}
+
+.card-login{
+    color: black;
+    font-weight: 800;
+    margin: 0;
+}
+
+.textfield{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    margin: 10px;
+}
+
+.textfield > input{
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 15px;
+    background: rgb(100, 139, 48);
+    color: black;
+    font-size: 12pt;
+    box-shadow: 0px -10px 40px rgb(67, 196, 50);
+    outline: none;
+    box-sizing: border-box;
+}
+
+.textfield > label{
+    color: rgb(61, 53, 41);
+    margin-bottom: 10px;
+
+}
+
+.textfield > input::placeholder{
+    color: rgb(153, 228, 82);
+}
+
+.btn-login{
+    width: 100%;
+    padding: 16px;
+    margin: 25px;
+    border: none;
+    border-radius: 8px;
+    outline: none;
+    color: rgb(0, 0, 0);
+    background: rgb(201, 211, 108);
+    cursor: pointer;
+}
+      </style>
+</head>
+<body>
+    <div class="main-login">
+        <div class="left-login">
+            <h1>Faça seu login<br>Curta essa folia com a gente</h1>
+            <img src="components/Privacy_policy-rafiki-removebg-preview.png">
+        </div>
+        <div class="right-login">
+            <div class="card-login">
+                <h1>Login</h1>
+                <div class="textfield">
+                    <label for="email">Email</label>
+                    <input type="text" name="email" placeholder="Email">
+                </div>
+                <div class="textfield">
+                    <label for="senha">Senha</label>
+                    <input type="password" name="senha" placeholder="Senha">
+                </div>
+                <button class="btn-login">Login</button>
+            </div>
+        </div>
+            </div>
+        </div>
+
+    </div>
+
+    
+</body>
+</html>

@@ -1,0 +1,116 @@
+body{
+    background-color: rgb(255, 130, 28);
+    color: rgb(2, 9, 10);
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 19px;
+}
+
+header{
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#title{
+    flex-direction: column;
+    line-height: 10px;
+}
+
+li{
+    display: inline-block;
+    margin: 20px;
+}
+
+a{
+    background-position: center;
+    color: rgb(133, 30, 30);
+}
+
+a:hover{
+    color: rgb(206, 228, 83);
+    transition: 0.4s all;
+}
+
+#inscreva-se-btn:hover{
+    background-color: rgb(72, 231, 93);
+}
+
+#inscreva-se-btn{
+    border: 2px solid rgb(57, 223, 85);
+    padding: 10px;
+    border-radius: 20px;
+}
+
+
+h1{
+    font-weight: 200;
+}
+
+main{
+    display: flex;
+    flex-direction: row;
+    margin: 50px;
+}
+
+h2{
+    font-size: 46px;
+    line-height: 10px;
+    font-family: poppinsbold;
+}
+span{
+    color: rgb(186, 196, 52);
+}
+
+p{
+    line-height: 20px;
+    max-width: 500px;
+    font-family: 'Times New Roman', Times, serif;
+}
+p{
+    text-align: justify;
+}
+img{
+    width: 250px;
+    padding: 0 15px;
+    float: right;
+}
+
+img{
+    width: 500px;
+}
+
+form{
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+
+form[type="submit"]{
+    height: 50px;
+    width: 50%;
+    background-color: rgb(255, 61, 27);
+    color: rgb(165, 117, 53) ;
+    font-weight: bold;
+}
+
+form[type="submit"]:hover{
+    cursor: pointer;
+}
+input{
+    margin-top: 15px;
+    height: 15px;
+    padding: 15px;
+    border-radius: 13px;
+    border: none;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+navlist{
+    background-attachment: fixed;
+    background-position: center;
+
+}
+
